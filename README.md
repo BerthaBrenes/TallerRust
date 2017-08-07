@@ -9,7 +9,7 @@ ejecutando en la consola
 para verificar instalacion
 
   $ rustc –version
-
+![verificacion](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
 
 1) Crear un cargo en la consola con el comando 
 
@@ -19,6 +19,8 @@ para verificar instalacion
 El main es el archivo principal donde se va a trabajar y cargar todo los ejercicios a hacer
 
 El Cargo.toml es donde vamos a colocar todas nuestras dependencias y/o paquetes necesarios
+
+![cargo img](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/cargo.png)
 
 vamos a hacer fork del proyecto que tenemos en este repositorio :)
 
