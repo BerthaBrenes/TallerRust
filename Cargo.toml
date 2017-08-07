@@ -1,0 +1,6 @@
+[package]
+name = "taller"
+version = "0.1.0"
+authors = ["BerthaBrenes <bertacaro1996@hotmail.com>"]
+
+[dependencies]
