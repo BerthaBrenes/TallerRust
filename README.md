@@ -1,30 +1,33 @@
 # TalleRust
 Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con el equipo de GoTouch. Como parte del area de capacitacion interna
 
-Para este taller se recomienda haber instalado con antelacion rust
-ejecutando en la consola 
+**Instalacion con antelacion**
+1) rust 
 
-   `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh <addr>`
+   `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh `
   
 para verificar instalacion
 
   $ rustc –version
-![verificacion](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
+![verificacionRust](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
 
-<addr> npm install -g neon-cli <addr>
+2) Neon
+`npm install -g neon-cli` 
+![verificacionNeon]()
 
-1) Crear un cargo en la consola con el comando 
+**Este repositorio se va a dividir en 2 carpetas y 1 codigo :file_folder:**
 
-  cargo new nombre –bin
- 
+3)Para el codigo clases.rs 
 
-El main es el archivo principal donde se va a trabajar y cargar todo los ejercicios a hacer
+Es el codigo completo del [blog de Adrianistan](https://blog.adrianistan.eu/2017/07/03/structs-traits-poo-rust/)
 
-El Cargo.toml es donde vamos a colocar todas nuestras dependencias y/o paquetes necesarios
+para compilarlo se ejecuta 
 
-![cargo img](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/cargo.png)
+`$ rustc clases.rs`
 
-vamos a hacer fork del proyecto que tenemos en este repositorio :)
+esto va a generar un binario y eso lo ejecutamos llamandolo
+
+`./clases`
 
 
 Gracias por su atencion
