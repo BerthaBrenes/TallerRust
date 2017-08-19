@@ -1,0 +1,14 @@
+{
+  "name": "hello",
+  "version": "0.1.0",
+  "description": "prueba neon test",
+  "main": "lib/index.js",
+  "author": "BerthaBrenes <bertacaro1996@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.19"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}

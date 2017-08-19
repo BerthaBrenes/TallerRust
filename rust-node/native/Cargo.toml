@@ -1,0 +1,17 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["BerthaBrenes <bertacaro1996@hotmail.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "hello"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.19"
+
+[dependencies]
+neon = "0.1.19"
+markdown = "0.2.0"

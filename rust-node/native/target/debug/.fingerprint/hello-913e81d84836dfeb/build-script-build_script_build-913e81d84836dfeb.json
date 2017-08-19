@@ -1,0 +1,1 @@
+{"rustc":3199039062860962502,"features":"[]","target":11663099983403787704,"profile":731176819336294830,"deps":[["neon-build v0.1.19",14494653053103187523]],"local":{"MtimeBased":[[1503028478,525709678],"/home/berta/hello/native/target/debug/.fingerprint/hello-913e81d84836dfeb/dep-build-script-build_script_build-913e81d84836dfeb"]},"rustflags":[]}
