@@ -1,1 +1,1 @@
-/home/berta/Escritorio/rustTaller/TallerGT/taller/target/debug/taller: /home/berta/Escritorio/rustTaller/TallerGT/taller/src/main.rs
+/home/berta/Escritorio/rustTaller/TallerGT/taller/rust/target/debug/taller: /home/berta/Escritorio/rustTaller/TallerGT/taller/rust/src/main.rs
