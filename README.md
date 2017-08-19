@@ -4,14 +4,16 @@ Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con e
 **Instalacion con antelacion**
 1) rust 
 
-   `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh `
+  `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh `
   
 para verificar instalacion
 
-  $ rustc –version
+  `$ rustc –version`
+  
 ![verificacionRust](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
 
 2) Neon
+
 `npm install -g neon-cli` 
 
 ![verificacionNeon](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/Neon.png)
