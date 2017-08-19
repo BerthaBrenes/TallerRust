@@ -4,12 +4,14 @@ Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con e
 Para este taller se recomienda haber instalado con antelacion rust
 ejecutando en la consola 
 
-  $ curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+ <addr> $ curl -sf -L https://static.rust-lang.org/rustup.sh | sh <addr>
   
 para verificar instalacion
 
   $ rustc –version
 ![verificacion](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
+
+<addr> npm install -g neon-cli <addr>
 
 1) Crear un cargo en la consola con el comando 
 
