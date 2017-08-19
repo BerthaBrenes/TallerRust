@@ -13,7 +13,8 @@ para verificar instalacion
 
 2) Neon
 `npm install -g neon-cli` 
-![verificacionNeon]()
+
+![verificacionNeon](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/Neon.png)
 
 **Este repositorio se va a dividir en 2 carpetas y 1 codigo :file_folder:**
 
@@ -26,7 +27,7 @@ para compilarlo se ejecuta
 `$ rustc clases.rs`
 
 esto va a generar un binario y eso lo ejecutamos llamandolo
-
+ 
 `./clases`
 
 
