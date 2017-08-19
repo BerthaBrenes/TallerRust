@@ -4,7 +4,7 @@ Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con e
 Para este taller se recomienda haber instalado con antelacion rust
 ejecutando en la consola 
 
- ' $ curl -sf -L https://static.rust-lang.org/rustup.sh | sh <addr>'
+   `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh <addr>`
   
 para verificar instalacion
 
