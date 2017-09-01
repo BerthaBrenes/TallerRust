@@ -10,13 +10,17 @@ para verificar instalacion
 
   `$ rustc –version`
 
+<<<<<<< HEAD
 ![verificacionRust](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
+=======
+![verificacionRust](/imgs/verficacion.png)
+>>>>>>> f3f72ab74f13ea5b5cfe872d3f3fc998c81bcbe9
 
 2) Neon
 
 `npm install -g neon-cli`
 
-![verificacionNeon](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/Neon.png)
+![verificacionNeon](/imgs/Neon.png)
 
 **Este repositorio se va a dividir en 2 carpetas y 1 codigo :file_folder:**
 
