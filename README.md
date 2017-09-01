@@ -1,36 +1,42 @@
 # TalleRust
-Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con el equipo de GoTouch. Como parte del area de capacitacion interna
+Este git esta dedicado para la facilitación de un taller de Rust en el CIC con el equipo de GoTouch. Como parte del área de capacitación interna
 
-**Instalacion con antelacion**
-1) rust
+**Instalación con antelación**
+* Rust
 
   `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh `
 
-para verificar instalacion
+  para la verificar instalación
 
-  `$ rustc –version`
+  ```bash
+  $ rustc —version
 
-![verificacionRust](/imgs/verficacion.png)
+  rustc 1.19.0 (0ade33941 2017-07-17)
+  ```
+* Node.js
 
-2) Neon
+  Descargar desde la [pagina oficial](https://nodejs.org/en/download/)
 
-`npm install -g neon-cli`
+* Neon
 
-![verificacionNeon](/imgs/Neon.png)
+  `npm install -g neon-cli`
 
-**Este repositorio se va a dividir en 2 carpetas y 1 codigo :file_folder:**
 
-3)Para el codigo clases.rs
+**Este repositorio se va a dividir en 2 carpetas y 1 código :file_folder:**
 
-Es el codigo completo del [blog de Adrianistan](https://blog.adrianistan.eu/2017/07/03/structs-traits-poo-rust/)
+3)Para el código clases.rs
+
+Es el código completo del [blog de Adrianistan](https://blog.adrianistan.eu/2017/07/03/structs-traits-poo-rust/)
 
 para compilarlo se ejecuta
 
-`$ rustc clases.rs`
+```bash
+$ rustc clases.rs
+```
 
-esto va a generar un binario y eso lo ejecutamos llamandolo
+esto va a generar un binario y eso lo ejecutamos llamándolo
 
 `./clases`
 
 
-Gracias por su atencion
+Gracias por su atención
