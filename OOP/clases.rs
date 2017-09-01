@@ -34,15 +34,15 @@ impl PartialOrd for Rectangulo
         if self.area() == other.area() 
         {
            Some(Ordering::Equal)
-       }
-       else if self.area() > other.area() 
-       {
-           Some(Ordering::Greater)
-       }
-       else
-       {
-           Some(Ordering::Less)
-       }
+        }
+        else if self.area() > other.area() 
+        {
+            Some(Ordering::Greater)
+        }
+        else
+        {
+            Some(Ordering::Less)
+        }
     }
 }
 impl std::fmt::Display for Rectangulo
