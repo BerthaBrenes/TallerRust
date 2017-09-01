@@ -1,17 +1,17 @@
 **Esta es la primer parte del taller**
 Este repositorio consiste en una llamada http y cargar dos paginas html.
 
-Para compilar el codigo
+Para compilar el código
 
 `$ cargo build`
 ![cargoBuild](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/cargoBuild.png)
 
-Para correr el codigo 
+Para correr el código
 
 `$ cargo run`
 ![cargoRun](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/CargoRun.png)
 
-Si se quisiera iniciar un cargo desde un inicio se ejecuta 
+Si se quisiera iniciar un cargo desde un inicio se ejecuta
 
 `$ cargo new taller --bin`
 
