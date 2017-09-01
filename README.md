@@ -1,40 +1,21 @@
 # TallerRust
-Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con el equipo de GoTouch. Como parte del area de capacitacion interna
+Este git esta dedicado para la facilitación de un taller de Rust en el CIC con el equipo de GoTouch. Como parte del área de capacitación interna
 
-**Instalacion con antelacion**
-1) rust
+**Este repositorio se va a dividir en 2 carpetas y 1 código :file_folder:**
 
-  `$ curl -sf -L https://static.rust-lang.org/rustup.sh | sh `
+3)Para el código clases.rs
 
-para verificar instalacion
-
-  `$ rustc –version`
-
-<<<<<<< HEAD
-![verificacionRust](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
-=======
-![verificacionRust](/imgs/verficacion.png)
->>>>>>> f3f72ab74f13ea5b5cfe872d3f3fc998c81bcbe9
-
-2) Neon
-
-`npm install -g neon-cli`
-
-![verificacionNeon](/imgs/Neon.png)
-
-**Este repositorio se va a dividir en 2 carpetas y 1 codigo :file_folder:**
-
-3)Para el codigo clases.rs
-
-Es el codigo completo del [blog de Adrianistan](https://blog.adrianistan.eu/2017/07/03/structs-traits-poo-rust/)
+Es el código completo del [blog de Adrianistan](https://blog.adrianistan.eu/2017/07/03/structs-traits-poo-rust/)
 
 para compilarlo se ejecuta
 
-`$ rustc clases.rs`
+```bash
+$ rustc clases.rs
+```
 
-esto va a generar un binario y eso lo ejecutamos llamandolo
+esto va a generar un binario y eso lo ejecutamos llamándolo
 
 `./clases`
 
 
-Gracias por su atencion
+Gracias por su atención
