@@ -1,4 +1,4 @@
-# TalleRust
+# TallerRust
 Este git esta dedicado para la facilitacion de un taller de Rust en el CIC con el equipo de GoTouch. Como parte del area de capacitacion interna
 
 **Instalacion con antelacion**
@@ -10,7 +10,11 @@ para verificar instalacion
 
   `$ rustc –version`
 
+<<<<<<< HEAD
+![verificacionRust](https://github.com/BerthaBrenes/TalleRust/blob/master/imgs/verficacion.png)
+=======
 ![verificacionRust](/imgs/verficacion.png)
+>>>>>>> f3f72ab74f13ea5b5cfe872d3f3fc998c81bcbe9
 
 2) Neon
 
