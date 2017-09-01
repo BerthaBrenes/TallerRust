@@ -1,7 +1,7 @@
 use std::cmp::Ordering;
 
 //consiste en ganar metodos de la estructura, de forma que derive
-#[derive(Copy,Clone)]
+#[derive(Copy, Clone)]
 struct Punto
 {
     x: i32,
@@ -27,7 +27,7 @@ impl Rectangulo
 
 impl PartialEq for Rectangulo
 {
-    fn eq(&self,other: &Rectangulo) -> bool
+    fn eq(&self, other: &Rectangulo) -> bool
     {
         self.area() == other.area()
     }
@@ -55,20 +55,20 @@ impl PartialOrd for Rectangulo
 impl std::fmt::Display for Rectangulo
 {
     //de esta forma logro visualizar todos los datos de la funcion Rectangu;p
-    fn fmt(&self,f: &mut std::fmt::Formatter) -> std::fmt::Result
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result
     {
-        write!(f,"Origen: ({},{}) - Area: {}",self.origen.x,self.origen.y,self.area())
+        write!(f, "Origen: ({}, {}) - Area: {}", self.origen.x, self.origen.y, self.area())
     }
 }
 
 fn main()
 {
     let p = Punto {x: 50, y: 50};
-    println!("Punto X: {}",p.x);
-    let r1 = Rectangulo {origen: p,ancho: 20, alto: 20};
-    println!("{}",r1);
+    println!("Punto X: {}", p.x);
+    let r1 = Rectangulo {origen: p, ancho: 20, alto: 20};
+    println!("{}", r1);
     let r2 = Rectangulo {origen: Punto{x: 3, y: 4}, ancho: 30, alto: 30};
-    println!("{}",r2);
+    println!("{}", r2);
     if r1 == r2
     {
         println!("r2 es más grande");
