@@ -1,0 +1,15 @@
+../src/neon.cc: In function ‘void Neon_Call_Callee(v8::FunctionCallbackInfo<v8::Value>*, v8::Local<v8::Function>*)’:
+../src/neon.cc:32:23: warning: ‘v8::Local<v8::Function> v8::FunctionCallbackInfo<T>::Callee() const [with T = v8::Value]’ is deprecated: Use Data() to explicitly pass Callee instead [-Wdeprecated-declarations]
+   *out = info->Callee();
+                       ^
+In file included from /home/berta/.node-gyp/6.11.2/include/node/node.h:42:0,
+                 from ../node_modules/nan/nan.h:49,
+                 from ../src/neon.cc:2:
+/home/berta/.node-gyp/6.11.2/include/node/v8.h:7889:17: note: declared here
+ Local<Function> FunctionCallbackInfo<T>::Callee() const {
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/neon.cc:7:0:
+../src/neon_string.h: In member function ‘v8::Local<v8::String> neon::Slice::ToJsString(v8::Isolate*, const char*)’:
+../src/neon_string.h:28:27: warning: ignoring return value of ‘bool v8::MaybeLocal<T>::ToLocal(v8::Local<S>*) const [with S = v8::String; T = v8::String]’, declared with attribute warn_unused_result [-Wunused-result]
+     maybe.ToLocal(&result);
+                           ^
