@@ -15,7 +15,7 @@ Si se quisiera iniciar un cargo desde un inicio se ejecuta
 
 `$ cargo build`
 ```bash
-berta@BB-EliteBook8560w:~/Escritorio/rustTaller/TallerGT/taller/rust$ cargo build
+    $ cargo build
    Compiling taller v0.1.0 (file:///home/berta/Escritorio/rustTaller/TallerGT/taller/rust)
     Finished dev [unoptimized + debuginfo] target(s) in 1.10
 ```
@@ -63,7 +63,7 @@ contenido del las paginas html
 `$ cargo run`
 
 ```bash
-berta@BB-EliteBook8560w:~/Escritorio/rustTaller/TallerGT/taller/rust$ cargo run
+    $ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 0.0 secs
      Running `target/debug/taller`
 

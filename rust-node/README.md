@@ -12,7 +12,7 @@ Para poder usar este código tenemos que instalar los paquetes de npm, así que 
 Cuando se hacen cambios en rust se debe compilar el codigo rust en la carpeta donde este el Cargo.toml es decir en la carpeta native
 
 ```bash
-berta@BB-EliteBook8560w:~/Escritorio/rustTaller/TallerGT/taller/rust-node/native$ cargo build
+    $ cargo build
     Updating registry `https://github.com/rust-lang/crates.io-index`
     .
     ..
@@ -24,8 +24,8 @@ Y cuando se quiera compilar todo incluyendo node se debe hacer por fuera del nat
 
 `$ neon build`
 ```bash
-berta@BB-EliteBook8560w:~/Escritorio/rustTaller/TallerGT/taller/rust-node$ neon build
-neon info running cargo
+  $ neon build
+  neon info running cargo
     .
     ..
     ...
