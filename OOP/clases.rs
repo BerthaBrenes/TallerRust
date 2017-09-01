@@ -1,4 +1,5 @@
 use std::cmp::Ordering;
+
 //consiste en ganar metodos de la estructura, de forma que derive
 #[derive(Copy,Clone)]
 struct Punto
@@ -23,6 +24,7 @@ impl Rectangulo
         self.ancho*self.alto
     }
 }
+
 impl PartialEq for Rectangulo
 {
     fn eq(&self,other: &Rectangulo) -> bool
@@ -30,6 +32,7 @@ impl PartialEq for Rectangulo
         self.area() == other.area()
     }
 }
+
 impl PartialOrd for Rectangulo
 {
     fn partial_cmp(&self, other: &Rectangulo) -> Option<Ordering>
@@ -48,6 +51,7 @@ impl PartialOrd for Rectangulo
         }
     }
 }
+
 impl std::fmt::Display for Rectangulo
 {
     //de esta forma logro visualizar todos los datos de la funcion Rectangu;p
@@ -55,7 +59,6 @@ impl std::fmt::Display for Rectangulo
     {
         write!(f,"Origen: ({},{}) - Area: {}",self.origen.x,self.origen.y,self.area())
     }
-
 }
 
 fn main()
