@@ -1,6 +1,6 @@
 use std::cmp::Ordering;
-
-#[derive(Copy,Clone)] //consiste en ganar metodos de la estructura, de forma que derive
+//consiste en ganar metodos de la estructura, de forma que derive
+#[derive(Copy,Clone)] 
 struct Punto 
 {
     x: i32,
@@ -13,10 +13,13 @@ struct Rectangulo
     ancho: i32,
     alto: i32
 }
+
+// le implementa un metodo a la estructura rectangulo
 impl Rectangulo
-{// le implementa un metodo a la estructura rectangulo
+{
+    // self hace referencia a la esctructura, y pub indica que es publico
     pub fn area(&self) -> i32
-    {// self hace referencia a la esctructura, y pub indica que es publico
+    {
         self.ancho*self.alto
     }
 }
@@ -46,7 +49,8 @@ impl PartialOrd for Rectangulo
     }
 }
 impl std::fmt::Display for Rectangulo
-{ //de esta forma logro visualizar todos los datos de la funcion Rectangu;p
+{ 
+    //de esta forma logro visualizar todos los datos de la funcion Rectangu;p
     fn fmt(&self,f: &mut std::fmt::Formatter) -> std::fmt::Result
     {
         write!(f,"Origen: ({},{}) - Area: {}",self.origen.x,self.origen.y,self.area())
