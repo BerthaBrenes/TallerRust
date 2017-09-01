@@ -17,7 +17,8 @@
   ```bash
   $ rustc —version
 
-  rustc 1.19.0 (0ade33941 2017-07-17)```
+  rustc 1.19.0 (0ade33941 2017-07-17)
+  ```
 
 ## Node.js
 
