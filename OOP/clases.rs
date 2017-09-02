@@ -65,16 +65,19 @@ fn main()
 {
     let p = Punto {x: 50, y: 50};
     println!("Punto X: {}", p.x);
+
     let r1 = Rectangulo {origen: p, ancho: 20, alto: 20};
     println!("{}", r1);
+
     let r2 = Rectangulo {origen: Punto{x: 3, y: 4}, ancho: 30, alto: 30};
     println!("{}", r2);
+
     if r1 == r2
     {
-        println!("r2 es más grande");
+        println!("r2 es más grande que r1");
     }
     else
     {
-        println!("no som iguales");
+        println!("r1 y r2 no son iguales");
     }
 }
