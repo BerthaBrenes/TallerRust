@@ -10,7 +10,7 @@ struct Punto
 
 struct Rectangulo
 {
-    origen:Punto,
+    origen: Punto,
     ancho: i32,
     alto: i32
 }
